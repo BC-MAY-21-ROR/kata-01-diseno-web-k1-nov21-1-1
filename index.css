@@ -3,3 +3,42 @@
     padding: 0;
     overflow-x: hidden;
 }
+
+.header{
+    font-family: 'Poppins', sans-serif;
+    height: 5%;
+}
+.content{
+    height: 95%;
+}
+.card{
+    
+}
+.card-title{
+    font-family: 'Poppins', sans-serif;
+}
+.card-content{
+
+
+    display: flex:
+}
+
+.footer{
+    
+}
+
+.main-logo {
+    width: 50%;
+}
+
+.img-content {
+    width: 50%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
