@@ -3,5 +3,59 @@
     padding: 0;
     overflow-x: hidden;
 }
+body{ font-family: 'Poppins', sans-serif; }
+.nav{
+    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+    padding: 1.5vh;
+    height: 5%;
+}
+.content{
+    height: 95%;
+    padding: 1.5vh;
+}
+.card{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 1em;
+    
+
+    
+}
+.card-title{
+    text-align: center;
+    font-weight: 700;
+}
+.card-content{
 
 
+    
+}
+.card-footer{
+    background-color: #fe52c0;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.footer{
+    background-color: #00252e
+}
+
+.main-logo {
+    width: 50%;
+}
+
+.img-content {
+    width: 50%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
