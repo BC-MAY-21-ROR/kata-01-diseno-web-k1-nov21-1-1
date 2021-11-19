@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 body{ font-family: 'Poppins', sans-serif; }
 .nav{
@@ -9,35 +10,53 @@ body{ font-family: 'Poppins', sans-serif; }
     font-family: 'Poppins', sans-serif;
     padding: 1.5vh;
     height: 5%;
+    justify-content: space-between;
 }
+
+.Logo { width: 50%; }
+
+.button {
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    padding: .2rem 1.2rem;
+    display: block;
+    font-size: small;
+}
+
+
 .content{
     height: 95%;
     padding: 1.5vh;
 }
 .card{
-    padding: 10px;
-    margin: 10px 0;
     border: 1px solid black;
     border-radius: 1em;
-    
-
-    
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    width: 80%;
+}
+.card div{
+    padding: 1vh 2vw;
 }
 .card-title{
+    color: hsl(192, 100%, 9%);    
     text-align: center;
     font-weight: 700;
 }
 .card-content{
-
-
-    
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(208, 11%, 55%);
 }
-.card-footer{
-    background-color: #fe52c0;
-    border-radius: 10px;
-    text-align: center;
+.button-pink{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
     margin: auto;
-    width: 50%;
+    width: 80%;
 }
 
 .footer{
@@ -46,6 +65,13 @@ body{ font-family: 'Poppins', sans-serif; }
 
 .main-logo {
     width: 50%;
+}
+
+.bg-header {
+    background-color: rgb(241, 248, 253);
+    background-image:  url('/images/bg-hero-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .img-content {
@@ -58,4 +84,29 @@ body{ font-family: 'Poppins', sans-serif; }
 
 .flex-wrap {
     flex-wrap: wrap;
+}
+
+.img-card {
+    width: 65%
+}
+
+.flex-1 {
+    width: 50%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.center-div {
+    width: 100%;
+    margin: 10% auto 10% auto;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.content-container {
+    padding: 0 5% 0 5%;
 }
